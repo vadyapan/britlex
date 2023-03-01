@@ -14,7 +14,7 @@ img {
 }
 
 .container {
-  max-width: 1338px;
+  max-width: 1342px;
   margin: 0 auto;
 }
 
@@ -93,6 +93,7 @@ img {
 .header__btn:hover {
   background-color: #000000;
   color: #fff;
+  transition: 0.4s;
 }
 .header__btn-link {
   color: inherit;
@@ -101,14 +102,24 @@ img {
   display: flex;
   justify-content: space-between;
 }
+.header__gs_picture {
+  margin-top: -50px;
+}
 .header__gs_btn {
   width: 438px;
   height: 118px;
   background-color: #263238;
   border-radius: 15px;
+  border: 2px solid #263238;
   font-weight: 400;
   font-size: 36px;
   color: #fff;
+}
+.header__gs_btn:hover {
+  background-color: #fff;
+  color: #263238;
+  border: 2px solid #263238;
+  transition: 0.4s;
 }
 .header__gs_btn-link {
   color: inherit;
@@ -138,12 +149,191 @@ img {
 }
 
 .text-p-main {
-  max-width: 632px;
+  max-width: 525px;
   margin-bottom: 61px;
 }
 
 .lamp {
   position: absolute;
-  top: 34.1%;
+  top: 33.5%;
   left: 34.5%;
+}
+
+.burger {
+  display: none;
+}
+
+@media screen and (max-width: 1450px) {
+  .container {
+    padding: 0 20px;
+  }
+}
+@media screen and (max-width: 992px) {
+  .container {
+    padding: 0;
+  }
+  .logo {
+    max-width: 89px;
+    max-height: 45px;
+  }
+  .header__inner {
+    margin: 30px 0 81px;
+    padding: 0 31px;
+  }
+  .header__inner-gs {
+    padding: 0 21px 0 29px;
+  }
+  .header__btn {
+    width: 160px;
+    height: 50px;
+    font-size: 18px;
+    padding: 0;
+  }
+  .header__gs_btn {
+    width: 292px;
+    height: 80px;
+    font-size: 24px;
+    padding: 0;
+    border-radius: 5px;
+  }
+  .header__gs_picture {
+    max-width: 460px;
+    max-height: 460px;
+  }
+  .text-h1 {
+    font-size: 48px;
+    line-height: 64px;
+    margin-bottom: 27px;
+  }
+  .text-h4 {
+    font-size: 16px;
+  }
+  .text-p-main {
+    max-width: 420px;
+    font-size: 20px;
+    line-height: 30px;
+    margin-bottom: 33px;
+  }
+  .lamp {
+    max-width: 68.71px;
+    top: 29.5%;
+  }
+}
+@media screen and (max-width: 767px) {
+  .nav {
+    display: none;
+  }
+  .header__inner {
+    padding: 0 38px 0 39px;
+    margin: 39px 0 68px;
+  }
+  .header__inner-gs {
+    padding: 0 16px 0 39px;
+  }
+  .header__btn {
+    display: none;
+  }
+  .header__gs_btn {
+    width: 236px;
+    height: 65px;
+    font-size: 18px;
+    border-radius: 5px;
+  }
+  .header__gs_picture {
+    max-width: 352px;
+    max-height: 352px;
+  }
+  .text-h1 {
+    font-size: 36px;
+    line-height: 45px;
+    margin-bottom: 25px;
+  }
+  .text-p-main {
+    font-size: 16px;
+    line-height: 24px;
+    max-width: 333px;
+    margin-bottom: 32px;
+  }
+  .lamp {
+    max-width: 58.99px;
+    top: 23.5%;
+    left: 33.5%;
+  }
+  .burger {
+    width: 30px;
+    height: 17px;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  .burger__line {
+    display: block;
+    width: 30px;
+    height: 3px;
+    background-color: #39515e;
+    border-radius: 1px;
+    margin-bottom: 4px;
+  }
+  .burger__line:last-child {
+    margin-bottom: 0px;
+    width: 21.22px;
+  }
+}
+@media screen and (max-width: 575px) {
+  .header__inner {
+    padding: 0 49.65px 0 32px;
+    margin: 39px 0 21px;
+    position: relative;
+  }
+  .header__inner-gs {
+    padding: 0 42px;
+    flex-direction: column-reverse;
+    align-items: center;
+    text-align: center;
+  }
+  .header__gs_btn {
+    width: 236px;
+    height: 65px;
+    font-size: 18px;
+    border-radius: 5px;
+  }
+  .header__gs_picture {
+    max-width: 424px;
+    max-height: 424px;
+    margin-bottom: 17px;
+  }
+  .text-h1 {
+    font-size: 34px;
+    margin-bottom: 26px;
+  }
+  .text-p-main {
+    font-size: 16px;
+    line-height: 24px;
+    max-width: 333px;
+    margin-bottom: 32px;
+  }
+  .lamp {
+    display: none;
+  }
+  .burger {
+    width: 42.35px;
+    height: 24px;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  .burger__line {
+    display: block;
+    width: 42.35px;
+    height: 4.25px;
+    background-color: #39515e;
+    border-radius: 1px;
+    margin-bottom: 5.65px;
+  }
+  .burger__line:last-child {
+    margin-bottom: 0px;
+    width: 29.96px;
+  }
 }
