@@ -1,0 +1,75 @@
+@import "fonts";
+
+$ffPop: "Poppins", sans-serif;
+$dark-color: #263238;
+$black-color: #000000;
+$gray-color: #8f95a5;
+$white-color: #fff;
+
+:root {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: $ffPop;
+  color: $black-color;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+}
+
+.container {
+  max-width: 1338px;
+  margin: 0 auto;
+}
+
+/* Styles for text */
+.text-h1 {
+  font-weight: 600;
+  font-size: 64px;
+  line-height: 80px;
+}
+
+.text-h2 {
+  font-weight: 600;
+  font-size: 48px;
+  line-height: 80px;
+}
+
+.text-h3 {
+  font-weight: 600;
+  font-style: 30px;
+  line-height: 80px;
+}
+
+.text-h4 {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 30px;
+  color: $gray-color;
+}
+
+.text-p {
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 30px;
+  color: $gray-color;
+}
+
+.text-p-card {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: $gray-color;
+}
+
+.text-btn {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 30px;
+  color: $white-color;
+}
+
+/* Header */
