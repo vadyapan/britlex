@@ -269,6 +269,10 @@ img {
     &__link {
       margin-bottom: 12px;
     }
+    &__close {
+      margin-top: -65px;
+      margin-left: 344px;
+    }
   }
   .header {
     &__inner {
@@ -409,6 +413,14 @@ img {
       &:last-child {
         width: 29.96px;
       }
+    }
+  }
+  body .sidenav {
+    position: absolute;
+    width: 575px;
+    &__close {
+      margin-top: -33px;
+      margin-left: 482px;
     }
   }
 }
