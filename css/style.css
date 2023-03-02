@@ -247,9 +247,13 @@ img {
   .sidenav__link {
     margin-bottom: 12px;
   }
+  .sidenav__logo {
+    position: relative;
+  }
   .sidenav__close {
-    margin-top: -65px;
-    margin-left: 344px;
+    position: absolute;
+    top: 3.3%;
+    left: 89.6%;
   }
   .header__inner {
     padding: 0 38px 0 39px;
@@ -382,12 +386,19 @@ img {
     width: 29.96px;
   }
   body .sidenav {
-    position: absolute;
-    width: 575px;
+    width: 100%;
   }
   body .sidenav__close {
-    margin-top: -33px;
-    margin-left: 482px;
+    top: 6.7%;
+    left: 90.7%;
+  }
+  body .sidenav li > a {
+    padding: 38px 0 0 34px;
+    font-size: 24px;
+    line-height: 65px;
+  }
+  body .sidenav .devider {
+    margin: 21px 32px 1px 33px !important;
   }
 }
 @media screen and (max-width: 450px) {

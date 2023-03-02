@@ -269,9 +269,13 @@ img {
     &__link {
       margin-bottom: 12px;
     }
+    &__logo {
+      position: relative;
+    }
     &__close {
-      margin-top: -65px;
-      margin-left: 344px;
+      position: absolute;
+      top: 3.3%;
+      left: 89.6%;
     }
   }
   .header {
@@ -416,11 +420,19 @@ img {
     }
   }
   body .sidenav {
-    position: absolute;
-    width: 575px;
+    width: 100%;
     &__close {
-      margin-top: -33px;
-      margin-left: 482px;
+      top: 6.7%;
+      left: 90.7%;
+    }
+    li > a {
+      padding: 38px 0 0 34px;
+      font-size: 24px;
+      line-height: 65px;
+    }
+    //Закончил тут
+    .devider {
+      margin: 21px 32px 1px 33px !important;
     }
   }
 }
