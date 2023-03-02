@@ -9,35 +9,64 @@
     <link rel="stylesheet" href="./css/style.css" />
   </head>
   <body>
+    <ul id="slide-out" class="sidenav">
+      <li>
+        <a class="header__logo-link sidenav__logo" href="#"
+          ><img class="logo" src="./img/logo.svg" alt="Logo"
+        /></a>
+        <a class="sidenav-close" href="#!"
+          ><i class="material-icons">close</i></a
+        >
+      </li>
+      <div class="divider"></div>
+      <li>
+        <a class="sidenav__link" href="#">Home</a>
+      </li>
+      <li>
+        <a class="sidenav__link" href="#projects">Skills</a>
+      </li>
+      <li>
+        <a class="sidenav__link" href="#services">About Us</a>
+      </li>
+      <li>
+        <a class="sidenav__link" href="#contacts">Pricing</a>
+      </li>
+      <li>
+        <a class="sidenav__link" href="#contacts">Contacts</a>
+      </li>
+      <button class="header__btn-sidenav">
+        <a href="#" class="header__btn-link-sidenav">Let’s Talk</a>
+      </button>
+    </ul>
     <header class="header">
       <div class="container">
         <div class="header__inner">
           <a class="header__logo-link" href="#"
             ><img class="logo" src="./img/logo.svg" alt="Logo"
           /></a>
-          <nav class="nav">
-            <ul class="nav__menu">
-              <li class="text-h4 nav__menu-item">
-                <a href="#" class="nav__menu-link">Home</a>
+          <navigation class="navigation">
+            <ul class="navigation__menu">
+              <li class="text-h4 navigation__menu-item">
+                <a href="#" class="navigation__menu-link">Home</a>
               </li>
-              <li class="text-h4 nav__menu-item">
-                <a href="#" class="nav__menu-link">Skills</a>
+              <li class="text-h4 navigation__menu-item">
+                <a href="#" class="navigation__menu-link">Skills</a>
               </li>
-              <li class="text-h4 nav__menu-item">
-                <a href="#" class="nav__menu-link">About Us</a>
+              <li class="text-h4 navigation__menu-item">
+                <a href="#" class="navigation__menu-link">About Us</a>
               </li>
-              <li class="text-h4 nav__menu-item">
-                <a href="#" class="nav__menu-link">Pricing</a>
+              <li class="text-h4 navigation__menu-item">
+                <a href="#" class="navigation__menu-link">Pricing</a>
               </li>
-              <li class="text-h4 nav__menu-item">
-                <a href="#" class="nav__menu-link">Contacts</a>
+              <li class="text-h4 navigation__menu-item">
+                <a href="#" class="navigation__menu-link">Contacts</a>
               </li>
             </ul>
-          </nav>
+          </navigation>
           <button class="header__btn">
             <a href="#" class="header__btn-link">Let’s Talk</a>
           </button>
-          <a class="burger" href="#">
+          <a class="burger sidenav-trigger" data-target="slide-out">
             <span class="burger__line"></span>
             <span class="burger__line"></span>
             <span class="burger__line"></span>
@@ -45,7 +74,9 @@
         </div>
         <div class="header__inner-gs">
           <div class="header__gs-item">
-            <h1 class="text-h1">Learn Any Foreign Language</h1>
+            <h1 class="text-h1">
+              Learn <br class="br-h1" />Any Foreign Language
+            </h1>
             <img class="lamp" src="./img/lamp-icon.svg" alt="Lamp Icon" />
             <p class="text-p-main">
               With our teachers who write a program for each student, you will
@@ -65,5 +96,8 @@
         </div>
       </div>
     </header>
+    <footer class="footer"></footer>
+    <script type="text/javascript" src="js/materialize.min.js"></script>
+    <script type="text/javascript" src="js/main.js"></script>
   </body>
 </html>
