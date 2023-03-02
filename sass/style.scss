@@ -358,6 +358,13 @@ img {
 
 @media screen and (max-width: 575px) {
   .header {
+    &__btn-sidenav {
+      margin-top: 118px;
+      margin-left: 33px;
+      width: 330px;
+      height: 70px;
+      font-size: 22px;
+    }
     &__inner {
       padding: 0 49.65px 0 32px;
       margin: 49px 0 71px;
@@ -430,22 +437,37 @@ img {
       font-size: 24px;
       line-height: 65px;
     }
-    //Закончил тут
-    .devider {
-      margin: 21px 32px 1px 33px !important;
+    .divider {
+      margin: 21px 32px -3px 33px;
+    }
+    &__link {
+      font-size: 24px;
+      margin-bottom: 17px;
     }
   }
 }
 
 @media screen and (max-width: 450px) {
-  .header__gs_picture {
-    max-width: 320px;
-    max-height: 320px;
+  .header {
+    &__btn-sidenav {
+      margin-top: 64px;
+      margin-left: 15px;
+      width: 291px;
+      height: 65px;
+      font-size: 20px;
+    }
+    &__gs_picture {
+      max-width: 320px;
+      max-height: 320px;
+    }
   }
 }
 
 @media screen and (max-width: 320px) {
   .header {
+    &__btn-sidenav {
+      margin-top: 81px;
+    }
     &__inner {
       padding: 0 15.47px 0 14px;
       margin: 45px 0 86px;
@@ -492,6 +514,28 @@ img {
       }
     }
   }
+  body .sidenav {
+    &__logo {
+      width: 71px;
+      height: 36px;
+    }
+    &__close {
+      top: 3.6%;
+      left: 89.7%;
+      width: 17.02px;
+    }
+    li > a {
+      padding: 12px 0 0 16px;
+      font-size: 22px;
+    }
+    .divider {
+      margin: -35px 16px 36px 14px;
+    }
+    &__link {
+      font-size: 24px;
+      margin-bottom: 17px;
+    }
+  }
 }
 
 @media screen and (max-width: 305px) {
@@ -503,6 +547,9 @@ img {
       &_btn {
         width: 210px;
       }
+    }
+    &__btn-sidenav {
+      width: 230px;
     }
   }
 }

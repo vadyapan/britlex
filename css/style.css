@@ -328,6 +328,13 @@ img {
   }
 }
 @media screen and (max-width: 575px) {
+  .header__btn-sidenav {
+    margin-top: 118px;
+    margin-left: 33px;
+    width: 330px;
+    height: 70px;
+    font-size: 22px;
+  }
   .header__inner {
     padding: 0 49.65px 0 32px;
     margin: 49px 0 71px;
@@ -397,17 +404,31 @@ img {
     font-size: 24px;
     line-height: 65px;
   }
-  body .sidenav .devider {
-    margin: 21px 32px 1px 33px !important;
+  body .sidenav .divider {
+    margin: 21px 32px -3px 33px;
+  }
+  body .sidenav__link {
+    font-size: 24px;
+    margin-bottom: 17px;
   }
 }
 @media screen and (max-width: 450px) {
+  .header__btn-sidenav {
+    margin-top: 64px;
+    margin-left: 15px;
+    width: 291px;
+    height: 65px;
+    font-size: 20px;
+  }
   .header__gs_picture {
     max-width: 320px;
     max-height: 320px;
   }
 }
 @media screen and (max-width: 320px) {
+  .header__btn-sidenav {
+    margin-top: 81px;
+  }
   .header__inner {
     padding: 0 15.47px 0 14px;
     margin: 45px 0 86px;
@@ -451,6 +472,26 @@ img {
   .burger__line:last-child {
     width: 23.72px;
   }
+  body .sidenav__logo {
+    width: 71px;
+    height: 36px;
+  }
+  body .sidenav__close {
+    top: 3.6%;
+    left: 89.7%;
+    width: 17.02px;
+  }
+  body .sidenav li > a {
+    padding: 12px 0 0 16px;
+    font-size: 22px;
+  }
+  body .sidenav .divider {
+    margin: -35px 16px 36px 14px;
+  }
+  body .sidenav__link {
+    font-size: 24px;
+    margin-bottom: 17px;
+  }
 }
 @media screen and (max-width: 305px) {
   .header__gs_picture {
@@ -458,6 +499,9 @@ img {
   }
   .header__gs_btn {
     width: 210px;
+  }
+  .header__btn-sidenav {
+    width: 230px;
   }
 }
 /* Sidenav */
