@@ -106,45 +106,45 @@ img {
   &__gs {
     &_picture {
       margin-top: -50px;
-      &_btn {
-        width: 438px;
-        height: 118px;
-        background-color: #263238;
-        border-radius: 15px;
-        border: 2px solid #263238;
-        font-weight: 400;
-        font-size: 36px;
-        color: #fff;
-        margin-bottom: 148px;
-        &:hover {
-          background-color: #fff;
-          color: #263238;
-          border: 2px solid #263238;
-          transition: 0.4s;
-        }
-        &-link {
-          color: inherit;
-        }
-      }
     }
-    &__btn {
-      margin-top: 13px;
-      width: 220px;
-      height: 70px;
-      padding: 0px 53px;
+    &_btn {
+      width: 438px;
+      height: 118px;
+      background-color: #263238;
+      border-radius: 15px;
       border: 2px solid #263238;
-      border-radius: 5px;
       font-weight: 400;
-      font-size: 24px;
-      color: #000000;
+      font-size: 36px;
+      color: #fff;
+      margin-bottom: 148px;
       &:hover {
-        background-color: #000000;
-        color: #fff;
+        background-color: #fff;
+        color: #263238;
+        border: 2px solid #263238;
         transition: 0.4s;
       }
       &-link {
         color: inherit;
       }
+    }
+  }
+  &__btn {
+    margin-top: 13px;
+    width: 220px;
+    height: 70px;
+    padding: 0px 53px;
+    border: 2px solid #263238;
+    border-radius: 5px;
+    font-weight: 400;
+    font-size: 24px;
+    color: #000000;
+    &:hover {
+      background-color: #000000;
+      color: #fff;
+      transition: 0.4s;
+    }
+    &-link {
+      color: inherit;
     }
   }
 }

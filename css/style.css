@@ -103,7 +103,7 @@ img {
 .header__gs_picture {
   margin-top: -50px;
 }
-.header__gs_picture_btn {
+.header__gs_btn {
   width: 438px;
   height: 118px;
   background-color: #263238;
@@ -114,16 +114,16 @@ img {
   color: #fff;
   margin-bottom: 148px;
 }
-.header__gs_picture_btn:hover {
+.header__gs_btn:hover {
   background-color: #fff;
   color: #263238;
   border: 2px solid #263238;
   transition: 0.4s;
 }
-.header__gs_picture_btn-link {
+.header__gs_btn-link {
   color: inherit;
 }
-.header__gs__btn {
+.header__btn {
   margin-top: 13px;
   width: 220px;
   height: 70px;
@@ -134,12 +134,12 @@ img {
   font-size: 24px;
   color: #000000;
 }
-.header__gs__btn:hover {
+.header__btn:hover {
   background-color: #000000;
   color: #fff;
   transition: 0.4s;
 }
-.header__gs__btn-link {
+.header__btn-link {
   color: inherit;
 }
 
