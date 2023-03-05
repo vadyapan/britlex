@@ -287,7 +287,7 @@ img {
     margin-bottom: 24px;
   }
   &__btn {
-    margin-left: 0px;
+    margin-left: -4px;
   }
 }
 
@@ -295,6 +295,7 @@ img {
   .container {
     padding: 0 20px;
   }
+
   .skills {
     &__inner {
       padding: 0 20px;
@@ -303,11 +304,13 @@ img {
       margin-bottom: 30px;
     }
   }
+
   .speaking {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
   }
+
   .writing {
     display: flex;
     flex-direction: column;
@@ -330,6 +333,7 @@ img {
       margin-left: 41px;
     }
   }
+
   .reading {
     display: flex;
     flex-direction: column;
@@ -338,6 +342,7 @@ img {
       margin-bottom: 12px;
     }
   }
+
   .listening {
     gap: 0;
   }
@@ -346,17 +351,21 @@ img {
   .container {
     padding: 0;
   }
+
   .logo {
     max-width: 89px;
     max-height: 45px;
   }
+
   .header {
     &__inner {
       margin: 28px 0 82px;
       padding: 0 31px;
+      &-gs {
+        padding: 0 21px 0 29px;
+      }
     }
     &__gs {
-      padding: 0 21px 0 29px;
       &_btn {
         width: 292px;
         height: 80px;
@@ -439,23 +448,23 @@ img {
     padding: 0px 0px 0px 22px;
     max-width: 303px;
     &__picture {
-      margin-bottom: 1px;
+      margin-bottom: -63px;
       max-width: 260px;
     }
     &__title {
       padding-left: 7px;
-      margin-bottom: -10px;
+      margin-bottom: -72px;
       font-size: 22px;
     }
     &__desc {
       padding-left: 6px;
       padding-right: 31px;
-      margin-bottom: 34px;
+      margin-bottom: -20px;
       &-first {
         margin-bottom: -3px;
       }
       &-second {
-        margin-bottom: 45px;
+        margin-bottom: 0;
       }
     }
     &__btn {
@@ -464,6 +473,7 @@ img {
       width: 196px;
       height: 57px;
       font-size: 18px;
+      margin-bottom: 52px;
       &:hover {
         opacity: none;
       }
@@ -471,22 +481,25 @@ img {
   }
 
   .writing {
-    padding: 5px 9px 0 30px;
+    padding: 0;
     &__picture {
       max-width: 205px;
-      margin-top: 1px;
-      margin-bottom: -29px;
+      margin: 0 0 -50px 38px;
     }
     &__title {
       font-size: 22px;
-      margin-bottom: -13px;
+      padding-left: 29px;
+      margin-bottom: -39px;
     }
     &__desc {
       font-size: 14px;
-      margin-bottom: 22px;
+      margin-bottom: -5px;
+      padding-left: 29px;
+      padding-right: 10px;
     }
     &__btn {
-      margin-left: -1px;
+      margin-left: 29px;
+      margin-bottom: 28px;
     }
   }
 
@@ -515,7 +528,7 @@ img {
   }
 
   .listening {
-    padding: 4px 21px 34px 29px;
+    padding: 6px 21px 4px 33px;
     &__picture {
       max-width: 254px;
       max-height: 169px;
@@ -537,27 +550,32 @@ img {
     gap: 21px;
     margin-left: 46px;
   }
+
   .skills__card-btn {
     width: 178px;
     height: 50px;
   }
+
   .speaking {
     &__picture {
       max-width: 214px;
     }
   }
+
   .writing {
     &__picture {
       max-width: 200px;
       float: none;
     }
   }
+
   .reading {
     &__picture {
       max-width: 216px;
       max-height: 144px;
     }
   }
+
   .listening {
     &__picture {
       max-width: 202px;
@@ -565,10 +583,12 @@ img {
     }
   }
 }
+
 @media screen and (max-width: 767px) {
   .navigation {
     display: none;
   }
+
   .sidenav {
     display: block;
     &__link {
@@ -630,17 +650,25 @@ img {
     line-height: 45px;
     margin-bottom: 26px;
   }
+
   .text-p-main {
     font-size: 16px;
     line-height: 24px;
     max-width: 333px;
     margin-bottom: 31px;
   }
+
+  .text-p-card {
+    font-size: 13px;
+    line-height: 20px;
+  }
+
   .lamp {
     max-width: 68.99px;
     top: 25.2%;
     left: 33.5%;
   }
+
   .burger {
     width: 30px;
     height: 17px;
@@ -677,21 +705,21 @@ img {
   }
 
   .speaking {
-    padding: 31px 9px 37px 1px;
+    padding: 31px 9px 0 1px;
+    &__picture {
+      margin-bottom: -19px;
+    }
     &__title {
       font-size: 20px;
       padding-left: 16px;
-      margin-bottom: -13px;
+      margin-bottom: -32px;
     }
     &__desc {
       padding-left: 17px;
       padding-right: 0px;
-      margin-bottom: 34px;
+      margin-bottom: 20px;
       &-first {
         margin-bottom: -5px;
-      }
-      &-second {
-        margin-bottom: 41px;
       }
     }
     &__btn {
@@ -700,31 +728,34 @@ img {
       font-size: 16px;
       padding-right: 0;
       margin-left: 16px;
+      margin-bottom: 66px;
     }
   }
 
   .writing {
-    padding: 14px 24px 27px 0px;
+    padding: 14px 18px 0 0;
     &__picture {
-      margin-bottom: -33px;
+      margin: 0px 0px -32px 5px;
     }
     &__title {
       font-size: 20px;
       padding-left: 16px;
-      margin-bottom: -16px;
+      margin-bottom: -15px;
     }
     &__desc {
-      margin-bottom: 18px;
-      padding-left: 18px;
+      padding-right: 0px;
+      padding-left: 21px;
+      margin-bottom: 16px;
     }
     &__btn {
+      margin-bottom: 29px;
       margin-left: 16px;
       padding-right: 0px;
     }
   }
 
   .reading {
-    padding: 34px 14px 28px 0px;
+    padding: 34px 14px 0 0;
     &__picture {
       margin-top: -1px;
       margin-bottom: 0px;
@@ -745,7 +776,7 @@ img {
   }
 
   .listening {
-    padding: 0px 2px 17px 22px;
+    padding: 0px 2px 0 22px;
     &__picture {
       margin-top: 59px;
     }
@@ -796,11 +827,20 @@ img {
     max-height: 252px;
   }
 
-  .skills__inner {
-    grid-template:
-      "one two"
-      "three four";
-    gap: 30px;
+  .skills {
+    &__inner {
+      grid-template:
+        "one two"
+        "three four";
+      gap: 30px;
+    }
+    &__card {
+      min-height: 622px;
+      padding-right: 14px;
+      &-btn {
+        margin-bottom: 66px;
+      }
+    }
   }
 
   .speaking {
@@ -808,18 +848,45 @@ img {
   }
 
   .writing {
-    display: flex;
-    flex-direction: column;
     &__picture {
       margin: 0 auto 20px;
     }
     &__desc {
       margin-bottom: 145px;
     }
+    &__btn {
+      margin-bottom: 66px;
+    }
+  }
+
+  .reading {
+    &__picture {
+      margin-bottom: -19px;
+    }
+    &__title {
+      margin-bottom: -32px;
+    }
+    &__desc {
+      margin-bottom: 125px;
+    }
   }
 
   .listening {
     flex-wrap: wrap-reverse;
+    justify-content: space-between;
+    padding-left: 20px;
+    &__picture {
+      margin-top: 32px;
+    }
+    &__title {
+      margin-bottom: -2px;
+    }
+    &__desc {
+      margin-bottom: 185px;
+    }
+    &__btn {
+      margin-bottom: 50px;
+    }
   }
 }
 
@@ -923,13 +990,6 @@ img {
     margin-bottom: 17px;
   }
 
-  .skills {
-    &__title {
-      margin-top: -34px;
-      margin-bottom: 32px;
-    }
-  }
-
   .text-p-card {
     font-size: 12px;
     line-height: 18px;
@@ -938,6 +998,7 @@ img {
   .skills {
     &__title {
       font-size: 30px;
+      margin-top: -34px;
       margin-bottom: 36px;
     }
     &__inner {
@@ -951,20 +1012,19 @@ img {
       width: 200px;
       height: 50px;
       font-size: 14px;
+      margin-bottom: 35px;
     }
   }
 
   .speaking {
-    display: flex;
-    flex-direction: column;
-    padding: 0px 25px 36px 9px;
+    padding: 0px 25px 0 9px;
     &__picture {
-      margin-bottom: -26px;
+      margin-bottom: -48px;
     }
     &__title {
       font-size: 18px;
       padding-left: 9px;
-      margin-bottom: -15px;
+      margin-bottom: -37px;
     }
     &__desc {
       padding-left: 11px;
@@ -973,7 +1033,7 @@ img {
         margin-bottom: 11px;
       }
       &-second {
-        margin-bottom: 23px;
+        margin-bottom: 0;
       }
     }
     &__btn {
@@ -981,35 +1041,32 @@ img {
       height: 50px;
       font-size: 14px;
       margin-left: 9px;
-      margin-bottom: 2px;
     }
   }
 
   .writing {
-    padding: 14px 24px 27px 0px;
-    justify-content: none;
+    padding: 14px 24px 0 0px;
     &__picture {
       margin-top: -10px;
-      margin-bottom: -21px;
+      margin-bottom: -51px;
     }
     &__title {
       font-size: 18px;
       padding-left: 17px;
-      margin-bottom: -21px;
+      margin-bottom: -51px;
     }
     &__desc {
       padding-left: 17px;
-      margin-bottom: 131px;
+      margin-bottom: 100px;
     }
     &__btn {
       margin-left: 14px;
+      margin-bottom: 39px;
     }
   }
 
   .reading {
-    display: flex;
-    flex-direction: column;
-    padding: 34px 14px 28px 0px;
+    padding: 34px 14px 0 0px;
     &__picture {
       margin-bottom: -2px;
     }
@@ -1028,9 +1085,7 @@ img {
   }
 
   .listening {
-    align-items: stretch;
-    align-content: flex-end;
-    padding: 0px 2px 16px 8px;
+    padding: 0px 2px 0 8px;
     &__picture {
       margin-top: 0px;
     }
@@ -1065,35 +1120,49 @@ img {
         "four";
       gap: 21px;
     }
+    &__card {
+      padding-right: 25px;
+    }
   }
 
   .speaking {
-    padding-right: 25px;
     &__picture {
       max-width: 213px;
-      margin: 0 auto;
+      margin: 0 auto -20px;
+    }
+    &__title {
+      margin-bottom: -13px;
+    }
+    &__desc {
+      margin-bottom: 10px;
+    }
+    &__btn {
+      margin-bottom: 40px;
     }
   }
 
   .writing {
-    padding-right: 25px;
     &__picture {
       max-width: 204px;
-      margin: 0 auto;
+      margin: 0 auto -20px;
+    }
+    &__title {
+      margin-bottom: -13px;
     }
   }
 
   .reading {
-    padding-right: 25px;
     &__picture {
       max-width: 236px;
       max-height: 157px;
-      margin: 0 auto;
+      margin: 0 auto -20px;
+    }
+    &__title {
+      margin-bottom: -13px;
     }
   }
 
   .listening {
-    padding-right: 25px;
     &__picture {
       max-width: 232px;
       min-height: 154px;
@@ -1228,7 +1297,7 @@ img {
   }
 
   .speaking {
-    padding: 8px 16px 45px 13px;
+    padding: 8px 16px 0 13px;
     &__picture {
       margin: -4px auto 10px;
     }
@@ -1252,13 +1321,13 @@ img {
       height: 50px;
       font-size: 14px;
       margin-left: 3px;
-      margin-bottom: 2px;
+      margin-bottom: 47px;
       padding-right: 9px;
     }
   }
 
   .writing {
-    padding: 14px 24px 27px 0px;
+    padding: 14px 17px 0 0px;
     &__picture {
       margin: 0 0 11px 45px;
     }
@@ -1268,17 +1337,20 @@ img {
       margin-bottom: -16px;
     }
     &__desc {
+      font-size: 12px;
+      line-height: 18px;
       padding-left: 17px;
-      margin-bottom: 4px;
+      margin-bottom: 29px;
     }
     &__btn {
       margin-left: 14px;
       padding-right: 9px;
+      margin-bottom: 46px;
     }
   }
 
   .reading {
-    padding: 34px 14px 28px 0px;
+    padding: 34px 19px 0 0px;
     &__picture {
       margin-left: 30px;
       margin-bottom: 20px;
@@ -1296,11 +1368,12 @@ img {
     &__btn {
       margin-left: 14px;
       padding-right: 9px;
+      margin-bottom: 46px;
     }
   }
 
   .listening {
-    padding: 0px 2px 16px 8px;
+    padding: 0px 17px 0 8px;
     &__picture {
       margin-top: 0px;
     }
@@ -1315,6 +1388,9 @@ img {
     }
     &__image {
       margin: 31px 0 36px 24px;
+    }
+    &__btn {
+      margin-bottom: 58px;
     }
   }
 }

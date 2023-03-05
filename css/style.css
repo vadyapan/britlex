@@ -278,7 +278,7 @@ img {
   margin-bottom: 24px;
 }
 .listening__btn {
-  margin-left: 0px;
+  margin-left: -4px;
 }
 
 @media screen and (max-width: 1450px) {
@@ -342,7 +342,7 @@ img {
     margin: 28px 0 82px;
     padding: 0 31px;
   }
-  .header__gs {
+  .header__inner-gs {
     padding: 0 21px 0 29px;
   }
   .header__gs_btn {
@@ -416,24 +416,24 @@ img {
     max-width: 303px;
   }
   .speaking__picture {
-    margin-bottom: 1px;
+    margin-bottom: -63px;
     max-width: 260px;
   }
   .speaking__title {
     padding-left: 7px;
-    margin-bottom: -10px;
+    margin-bottom: -72px;
     font-size: 22px;
   }
   .speaking__desc {
     padding-left: 6px;
     padding-right: 31px;
-    margin-bottom: 34px;
+    margin-bottom: -20px;
   }
   .speaking__desc-first {
     margin-bottom: -3px;
   }
   .speaking__desc-second {
-    margin-bottom: 45px;
+    margin-bottom: 0;
   }
   .speaking__btn {
     margin-left: 6px;
@@ -441,28 +441,32 @@ img {
     width: 196px;
     height: 57px;
     font-size: 18px;
+    margin-bottom: 52px;
   }
   .speaking__btn:hover {
     opacity: none;
   }
   .writing {
-    padding: 5px 9px 0 30px;
+    padding: 0;
   }
   .writing__picture {
     max-width: 205px;
-    margin-top: 1px;
-    margin-bottom: -29px;
+    margin: 0 0 -50px 38px;
   }
   .writing__title {
     font-size: 22px;
-    margin-bottom: -13px;
+    padding-left: 29px;
+    margin-bottom: -39px;
   }
   .writing__desc {
     font-size: 14px;
-    margin-bottom: 22px;
+    margin-bottom: -5px;
+    padding-left: 29px;
+    padding-right: 10px;
   }
   .writing__btn {
-    margin-left: -1px;
+    margin-left: 29px;
+    margin-bottom: 28px;
   }
   .reading {
     padding: 13px 0px 0px;
@@ -488,7 +492,7 @@ img {
     margin-left: 25px;
   }
   .listening {
-    padding: 4px 21px 34px 29px;
+    padding: 6px 21px 4px 33px;
   }
   .listening__picture {
     max-width: 254px;
@@ -594,6 +598,10 @@ img {
     max-width: 333px;
     margin-bottom: 31px;
   }
+  .text-p-card {
+    font-size: 13px;
+    line-height: 20px;
+  }
   .lamp {
     max-width: 68.99px;
     top: 25.2%;
@@ -631,23 +639,23 @@ img {
     font-size: 16px;
   }
   .speaking {
-    padding: 31px 9px 37px 1px;
+    padding: 31px 9px 0 1px;
+  }
+  .speaking__picture {
+    margin-bottom: -19px;
   }
   .speaking__title {
     font-size: 20px;
     padding-left: 16px;
-    margin-bottom: -13px;
+    margin-bottom: -32px;
   }
   .speaking__desc {
     padding-left: 17px;
     padding-right: 0px;
-    margin-bottom: 34px;
+    margin-bottom: 20px;
   }
   .speaking__desc-first {
     margin-bottom: -5px;
-  }
-  .speaking__desc-second {
-    margin-bottom: 41px;
   }
   .speaking__btn {
     width: 178px;
@@ -655,28 +663,31 @@ img {
     font-size: 16px;
     padding-right: 0;
     margin-left: 16px;
+    margin-bottom: 66px;
   }
   .writing {
-    padding: 14px 24px 27px 0px;
+    padding: 14px 18px 0 0;
   }
   .writing__picture {
-    margin-bottom: -33px;
+    margin: 0px 0px -32px 5px;
   }
   .writing__title {
     font-size: 20px;
     padding-left: 16px;
-    margin-bottom: -16px;
+    margin-bottom: -15px;
   }
   .writing__desc {
-    margin-bottom: 18px;
-    padding-left: 18px;
+    padding-right: 0px;
+    padding-left: 21px;
+    margin-bottom: 16px;
   }
   .writing__btn {
+    margin-bottom: 29px;
     margin-left: 16px;
     padding-right: 0px;
   }
   .reading {
-    padding: 34px 14px 28px 0px;
+    padding: 34px 14px 0 0;
   }
   .reading__picture {
     margin-top: -1px;
@@ -696,7 +707,7 @@ img {
     padding-right: 0px;
   }
   .listening {
-    padding: 0px 2px 17px 22px;
+    padding: 0px 2px 0 22px;
   }
   .listening__picture {
     margin-top: 59px;
@@ -734,12 +745,15 @@ img {
     grid-template: "one two" "three four";
     gap: 30px;
   }
+  .skills__card {
+    min-height: 622px;
+    padding-right: 14px;
+  }
+  .skills__card-btn {
+    margin-bottom: 66px;
+  }
   .speaking {
     max-width: 100%;
-  }
-  .writing {
-    display: flex;
-    flex-direction: column;
   }
   .writing__picture {
     margin: 0 auto 20px;
@@ -747,8 +761,34 @@ img {
   .writing__desc {
     margin-bottom: 145px;
   }
+  .writing__btn {
+    margin-bottom: 66px;
+  }
+  .reading__picture {
+    margin-bottom: -19px;
+  }
+  .reading__title {
+    margin-bottom: -32px;
+  }
+  .reading__desc {
+    margin-bottom: 125px;
+  }
   .listening {
     flex-wrap: wrap-reverse;
+    justify-content: space-between;
+    padding-left: 20px;
+  }
+  .listening__picture {
+    margin-top: 32px;
+  }
+  .listening__title {
+    margin-bottom: -2px;
+  }
+  .listening__desc {
+    margin-bottom: 185px;
+  }
+  .listening__btn {
+    margin-bottom: 50px;
   }
 }
 @media screen and (max-width: 575px) {
@@ -835,16 +875,13 @@ img {
     font-size: 24px;
     margin-bottom: 17px;
   }
-  .skills__title {
-    margin-top: -34px;
-    margin-bottom: 32px;
-  }
   .text-p-card {
     font-size: 12px;
     line-height: 18px;
   }
   .skills__title {
     font-size: 30px;
+    margin-top: -34px;
     margin-bottom: 36px;
   }
   .skills__inner {
@@ -858,19 +895,18 @@ img {
     width: 200px;
     height: 50px;
     font-size: 14px;
+    margin-bottom: 35px;
   }
   .speaking {
-    display: flex;
-    flex-direction: column;
-    padding: 0px 25px 36px 9px;
+    padding: 0px 25px 0 9px;
   }
   .speaking__picture {
-    margin-bottom: -26px;
+    margin-bottom: -48px;
   }
   .speaking__title {
     font-size: 18px;
     padding-left: 9px;
-    margin-bottom: -15px;
+    margin-bottom: -37px;
   }
   .speaking__desc {
     padding-left: 11px;
@@ -880,39 +916,36 @@ img {
     margin-bottom: 11px;
   }
   .speaking__desc-second {
-    margin-bottom: 23px;
+    margin-bottom: 0;
   }
   .speaking__btn {
     width: 200px;
     height: 50px;
     font-size: 14px;
     margin-left: 9px;
-    margin-bottom: 2px;
   }
   .writing {
-    padding: 14px 24px 27px 0px;
-    justify-content: none;
+    padding: 14px 24px 0 0px;
   }
   .writing__picture {
     margin-top: -10px;
-    margin-bottom: -21px;
+    margin-bottom: -51px;
   }
   .writing__title {
     font-size: 18px;
     padding-left: 17px;
-    margin-bottom: -21px;
+    margin-bottom: -51px;
   }
   .writing__desc {
     padding-left: 17px;
-    margin-bottom: 131px;
+    margin-bottom: 100px;
   }
   .writing__btn {
     margin-left: 14px;
+    margin-bottom: 39px;
   }
   .reading {
-    display: flex;
-    flex-direction: column;
-    padding: 34px 14px 28px 0px;
+    padding: 34px 14px 0 0px;
   }
   .reading__picture {
     margin-bottom: -2px;
@@ -930,9 +963,7 @@ img {
     margin-left: 18px;
   }
   .listening {
-    align-items: stretch;
-    align-content: flex-end;
-    padding: 0px 2px 16px 8px;
+    padding: 0px 2px 0 8px;
   }
   .listening__picture {
     margin-top: 0px;
@@ -961,30 +992,36 @@ img {
     grid-template: "one" "two" "three" "four";
     gap: 21px;
   }
-  .speaking {
+  .skills__card {
     padding-right: 25px;
   }
   .speaking__picture {
     max-width: 213px;
-    margin: 0 auto;
+    margin: 0 auto -20px;
   }
-  .writing {
-    padding-right: 25px;
+  .speaking__title {
+    margin-bottom: -13px;
+  }
+  .speaking__desc {
+    margin-bottom: 10px;
+  }
+  .speaking__btn {
+    margin-bottom: 40px;
   }
   .writing__picture {
     max-width: 204px;
-    margin: 0 auto;
+    margin: 0 auto -20px;
   }
-  .reading {
-    padding-right: 25px;
+  .writing__title {
+    margin-bottom: -13px;
   }
   .reading__picture {
     max-width: 236px;
     max-height: 157px;
-    margin: 0 auto;
+    margin: 0 auto -20px;
   }
-  .listening {
-    padding-right: 25px;
+  .reading__title {
+    margin-bottom: -13px;
   }
   .listening__picture {
     max-width: 232px;
@@ -1096,7 +1133,7 @@ img {
     font-size: 14px;
   }
   .speaking {
-    padding: 8px 16px 45px 13px;
+    padding: 8px 16px 0 13px;
   }
   .speaking__picture {
     margin: -4px auto 10px;
@@ -1121,11 +1158,11 @@ img {
     height: 50px;
     font-size: 14px;
     margin-left: 3px;
-    margin-bottom: 2px;
+    margin-bottom: 47px;
     padding-right: 9px;
   }
   .writing {
-    padding: 14px 24px 27px 0px;
+    padding: 14px 17px 0 0px;
   }
   .writing__picture {
     margin: 0 0 11px 45px;
@@ -1136,15 +1173,18 @@ img {
     margin-bottom: -16px;
   }
   .writing__desc {
+    font-size: 12px;
+    line-height: 18px;
     padding-left: 17px;
-    margin-bottom: 4px;
+    margin-bottom: 29px;
   }
   .writing__btn {
     margin-left: 14px;
     padding-right: 9px;
+    margin-bottom: 46px;
   }
   .reading {
-    padding: 34px 14px 28px 0px;
+    padding: 34px 19px 0 0px;
   }
   .reading__picture {
     margin-left: 30px;
@@ -1163,9 +1203,10 @@ img {
   .reading__btn {
     margin-left: 14px;
     padding-right: 9px;
+    margin-bottom: 46px;
   }
   .listening {
-    padding: 0px 2px 16px 8px;
+    padding: 0px 17px 0 8px;
   }
   .listening__picture {
     margin-top: 0px;
@@ -1181,6 +1222,9 @@ img {
   }
   .listening__image {
     margin: 31px 0 36px 24px;
+  }
+  .listening__btn {
+    margin-bottom: 58px;
   }
 }
 @media screen and (max-width: 305px) {
