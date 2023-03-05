@@ -295,8 +295,48 @@ img {
   .container {
     padding: 0 20px;
   }
-  .skills__inner {
-    padding: 0 20px;
+  .skills {
+    &__inner {
+      padding: 0 20px;
+    }
+    &__card-btn {
+      margin-bottom: 30px;
+    }
+  }
+  .speaking {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  .writing {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 0 20px 0 0;
+    &__picture {
+      display: block;
+      max-width: 75%;
+      margin: 0 0 -44px 94px;
+    }
+    &__title {
+      padding-left: 41px;
+      margin-bottom: -34px;
+    }
+    &__desc {
+      margin-bottom: 12px;
+      padding-left: 41px;
+    }
+    &__btn {
+      margin-left: 41px;
+    }
+  }
+  .reading {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    &__desc {
+      margin-bottom: 12px;
+    }
   }
   .listening {
     gap: 0;
@@ -314,20 +354,20 @@ img {
     &__inner {
       margin: 28px 0 82px;
       padding: 0 31px;
-      &-gs {
-        padding: 0 21px 0 29px;
-        &_btn {
-          width: 292px;
-          height: 80px;
-          font-size: 24px;
-          padding: 0;
-          border-radius: 5px;
-        }
-        &_picture {
-          max-width: 460px;
-          max-height: 460px;
-          margin-top: -14px;
-        }
+    }
+    &__gs {
+      padding: 0 21px 0 29px;
+      &_btn {
+        width: 292px;
+        height: 80px;
+        font-size: 24px;
+        padding: 0;
+        border-radius: 5px;
+      }
+      &_picture {
+        max-width: 460px;
+        max-height: 460px;
+        margin-top: -14px;
       }
     }
     &__btn {
@@ -431,7 +471,7 @@ img {
   }
 
   .writing {
-    padding: 5px 9px 30px 30px;
+    padding: 5px 9px 0 30px;
     &__picture {
       max-width: 205px;
       margin-top: 1px;

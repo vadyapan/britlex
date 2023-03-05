@@ -288,6 +288,44 @@ img {
   .skills__inner {
     padding: 0 20px;
   }
+  .skills__card-btn {
+    margin-bottom: 30px;
+  }
+  .speaking {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  .writing {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 0 20px 0 0;
+  }
+  .writing__picture {
+    display: block;
+    max-width: 75%;
+    margin: 0 0 -44px 94px;
+  }
+  .writing__title {
+    padding-left: 41px;
+    margin-bottom: -34px;
+  }
+  .writing__desc {
+    margin-bottom: 12px;
+    padding-left: 41px;
+  }
+  .writing__btn {
+    margin-left: 41px;
+  }
+  .reading {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  .reading__desc {
+    margin-bottom: 12px;
+  }
   .listening {
     gap: 0;
   }
@@ -304,17 +342,17 @@ img {
     margin: 28px 0 82px;
     padding: 0 31px;
   }
-  .header__inner-gs {
+  .header__gs {
     padding: 0 21px 0 29px;
   }
-  .header__inner-gs_btn {
+  .header__gs_btn {
     width: 292px;
     height: 80px;
     font-size: 24px;
     padding: 0;
     border-radius: 5px;
   }
-  .header__inner-gs_picture {
+  .header__gs_picture {
     max-width: 460px;
     max-height: 460px;
     margin-top: -14px;
@@ -408,7 +446,7 @@ img {
     opacity: none;
   }
   .writing {
-    padding: 5px 9px 30px 30px;
+    padding: 5px 9px 0 30px;
   }
   .writing__picture {
     max-width: 205px;
