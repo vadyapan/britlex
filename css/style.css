@@ -348,7 +348,7 @@ img {
   justify-content: space-between;
   align-items: flex-end;
   gap: 87px;
-  margin-bottom: 290px;
+  margin-bottom: 262px;
 }
 .pricing__picture {
   margin: 0 auto;
@@ -404,6 +404,57 @@ img {
   margin-bottom: 56px;
 }
 
+/* Contact Us */
+.contact {
+  max-width: 1364px;
+  margin: 0 auto;
+}
+.contact__inner {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 113px;
+}
+.contact__title {
+  margin-top: -49px;
+  margin-bottom: 34px;
+}
+.contact__picture--secret {
+  display: none;
+}
+.contact__desc {
+  max-width: 776px;
+  margin-bottom: 50px;
+}
+.contact__email {
+  width: 450px;
+  height: 80px;
+  border: 1px solid #8f95a5;
+  border-radius: 10px;
+  padding: 26px 0 30px 33px;
+  margin-bottom: 12px;
+}
+.contact__email:focus {
+  border: 2px solid #263238;
+  font-size: 20px;
+  color: #000000;
+  transition: 0.2s;
+}
+.contact__btn {
+  width: 264px;
+  height: 80px;
+  background-color: #263238;
+  border-radius: 10px;
+  font-size: 20px;
+  font-weight: 500;
+  color: #fff;
+  margin-left: 12px;
+}
+.contact__btn:hover {
+  opacity: 0.7;
+}
+
+/* Footer */
 @media screen and (max-width: 1450px) {
   .container {
     padding: 0 20px;
@@ -423,6 +474,9 @@ img {
   }
   .pricing__h3 {
     line-height: 55px;
+  }
+  .contact__inner {
+    padding: 0 28px 0 13px;
   }
   .speaking {
     display: flex;
@@ -746,6 +800,38 @@ img {
   .personal-desc {
     margin-bottom: 66px;
   }
+  .contact__inner {
+    margin-bottom: 157px;
+  }
+  .contact__picture {
+    max-width: 312px;
+    max-height: 281px;
+  }
+  .contact__title {
+    font-size: 36px;
+    margin-top: -18px;
+    margin-bottom: 3px;
+  }
+  .contact__desc {
+    font-size: 16px;
+    line-height: 24px;
+    max-width: 449px;
+    margin-bottom: 34px;
+  }
+  .contact__email {
+    width: 323px;
+    height: 60px;
+    font-size: 14px;
+  }
+  .contact__email:focus {
+    font-size: 16px;
+  }
+  .contact__btn {
+    width: 193px;
+    height: 60px;
+    margin-left: 14px;
+    font-size: 16px;
+  }
 }
 @media screen and (max-width: 830px) {
   .navigation__menu {
@@ -1037,6 +1123,45 @@ img {
   .self-img {
     margin-bottom: 29px;
   }
+  .contact__inner {
+    margin-bottom: 191px;
+  }
+  .contact__picture {
+    max-width: 233px;
+    max-height: 210px;
+  }
+  .contact__title {
+    font-size: 30px;
+    margin-top: -31px;
+    margin-bottom: -11px;
+  }
+  .contact__desc {
+    font-size: 14px;
+    line-height: 21px;
+    max-width: 387px;
+    margin-bottom: 26px;
+  }
+  .contact__email {
+    width: 283px;
+    height: 50px;
+    font-size: 12px;
+    padding: 16px 24px;
+    border-radius: 5px;
+  }
+  .contact__email:focus {
+    font-size: 14px;
+    border: 1px solid #263238;
+  }
+  .contact__btn {
+    width: 145px;
+    height: 50px;
+    margin-left: 6px;
+    font-size: 13px;
+    border-radius: 5px;
+  }
+  .contact__btn:hover {
+    opacity: 1;
+  }
 }
 @media screen and (max-width: 730px) {
   .skills__inner {
@@ -1061,6 +1186,7 @@ img {
     align-items: center;
     gap: 71px;
     text-align: center;
+    margin-bottom: 163px;
   }
   .pricing__desc {
     max-width: 400px;
@@ -1077,6 +1203,49 @@ img {
   .personal-img {
     margin: 0 auto 29px;
     max-width: 253px;
+  }
+  .contact__inner {
+    flex-direction: column;
+    padding: 0px 33px 0 31px;
+    text-align: center;
+  }
+  .contact__picture {
+    display: none;
+  }
+  .contact__picture--secret {
+    display: block;
+    max-width: 358px;
+    max-height: 322px;
+    margin: 0 auto 34px;
+  }
+  .contact__title {
+    margin-top: 0;
+    margin-bottom: 83px;
+  }
+  .contact__desc {
+    max-width: 520px;
+    font-size: 16px;
+    margin-bottom: 57px;
+    line-height: 24px;
+  }
+  .contact__email {
+    width: 99%;
+    height: 60px;
+    border-radius: 10px;
+    font-size: 13px;
+    margin-bottom: 17px;
+  }
+  .contact__email:focus {
+    font-size: 16px;
+  }
+  .contact__btn {
+    width: 193px;
+    height: 61px;
+    border-radius: 10px;
+    margin-left: -193px;
+    font-size: 16px;
+    padding: 0;
+    z-index: 1;
   }
 }
 @media screen and (max-width: 680px) {
@@ -1132,6 +1301,9 @@ img {
   }
   .listening__btn {
     margin-bottom: 50px;
+  }
+  .foreign__p {
+    line-height: 20px;
   }
 }
 @media screen and (max-width: 575px) {
@@ -1381,7 +1553,7 @@ img {
   .foreign__h2 {
     font-size: 24px;
     margin-left: 0;
-    margin-bottom: -20px;
+    margin-bottom: -15px;
   }
   .foreign__p {
     font-size: 14px;
@@ -1389,13 +1561,13 @@ img {
   }
   .pricing__inner {
     gap: 82px;
-    margin-bottom: 163px;
+    margin-bottom: 172px;
   }
   .pricing__h3 {
     font-size: 24px;
   }
   .pricing__per-month {
-    padding: 6px 38px 8px 17px;
+    padding: 6px 17px 8px 17px;
   }
   .self-img {
     margin: 67px auto 29px;
@@ -1467,6 +1639,16 @@ img {
   }
   .listening__image {
     margin: 20px auto;
+  }
+}
+@media screen and (max-width: 489px) {
+  .contact__picture--secret {
+    max-width: 253px;
+    max-height: 228px;
+  }
+  .contact__btn {
+    width: 100%;
+    margin: 0 auto;
   }
 }
 @media screen and (max-width: 450px) {
@@ -1685,7 +1867,7 @@ img {
   }
   .about__inner {
     padding: 0 12px;
-    margin-bottom: 77px;
+    margin-bottom: 82px;
   }
   .about__title {
     font-size: 24px;
@@ -1727,7 +1909,7 @@ img {
   }
   .pricing__inner {
     gap: 71px;
-    margin-bottom: 72px;
+    margin-bottom: 77px;
   }
   .pricing__h3 {
     font-size: 18px;
@@ -1772,6 +1954,35 @@ img {
   }
   .personal-desc {
     margin-bottom: 42px;
+  }
+  .contact__inner {
+    padding: 0 15px;
+  }
+  .contact__title {
+    font-size: 24px;
+    margin-bottom: 36px;
+  }
+  .contact__picture--secret {
+    margin: 0 auto 42px;
+  }
+  .contact__desc {
+    font-size: 14px;
+    line-height: 21px;
+    max-width: 285px;
+    margin-bottom: 30px;
+  }
+  .contact__email {
+    width: 100%;
+    font-size: 12px;
+    border-radius: 5px;
+    height: 50px;
+  }
+  .contact__email:focus {
+    font-size: 15px;
+  }
+  .contact__btn {
+    font-size: 14px;
+    border-radius: 5px;
   }
 }
 @media screen and (max-width: 305px) {
