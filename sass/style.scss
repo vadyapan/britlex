@@ -458,7 +458,8 @@ img {
     padding: 26px 0 30px 33px;
     margin-bottom: 12px;
     &:focus {
-      border: 2px solid #263238;
+      outline-style: 2px solid;
+      outline-color: #263238;
       font-size: 20px;
       color: #000000;
       transition: 0.2s;
@@ -1343,7 +1344,8 @@ img {
       border-radius: 5px;
       &:focus {
         font-size: 14px;
-        border: 1px solid #263238;
+        outline-style: 1px solid;
+        outline-color: #263238;
       }
     }
     &__btn {
